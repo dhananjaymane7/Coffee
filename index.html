@@ -1,0 +1,64 @@
+    <html>
+    <head>
+        <title>Coders Coffee</title>
+        <link rel="stylesheet" href="login.css">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+        
+        <script>
+            function google()
+            {
+                alert("Please Login with Google ...!")
+                var windob=window.open("Gmail.html","winName1","top=0, left=700, width=800, height=800, status");
+            }
+            
+            function Facebook()
+            {
+                alert("Please Login with Facebook...!")
+                var windob=window.open("Facebook.html","winName2","top=0, left=250, width=1200, height=1000, status");
+                windob.focus();
+            }
+            
+            function Home()
+            {
+                var username=document.getElementById('t1').value;
+                var password=document.getElementById('t2').value;
+                
+                if(username=="dhanu" && password=="dhanu")
+                {
+                    var windob=window.open("index1.html","winName","top=0, left=0, width=2000, height=1200, status");
+                    windob.focus();
+                }
+                else
+                {
+                    alert("Please fill correct info")
+                }
+                
+            }
+        </script>
+    </head>
+    <body>
+        <div class="container">
+          <div class="btn">
+                <input type="text" placeholder="Username" id="t1" required><br><br>
+                 <input type="password" placeholder="Password" id="t2" required><br><br>
+            </div>
+            
+            <div class="btns">
+                <input type="button" value="Login" id="t5" onclick="Home()"><br><br>
+                <input type="button" value="Register" id="t6">
+                
+            </div>
+            
+            <ul class="social-media">
+            <li><a href=" " onclick="Facebook()" class="icon"><i class="fab fa-facebook"></i></a></li>
+    
+            <li><a href=" " onclick="google()" class="icon"><i class="fab fa-google"></i></a></li>
+  
+  </ul>
+            
+        </div>
+    </body>
+</html>
+

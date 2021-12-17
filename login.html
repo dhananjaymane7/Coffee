@@ -1,0 +1,63 @@
+    <html>
+    <head>
+        <title>Coders Coffee</title>
+        <link rel="stylesheet" href="login.css">
+        <meta charset="utf-8">
+        
+        <script>
+            function google()
+            {
+                alert("Please Login with Google ...!")
+                var windob=window.open("Gmail.html","winName","top=0, left=250, width=800, height=800, status");
+                windob.focus();
+            }
+            
+            function Facebook()
+            {
+                alert("Please Login with Facebook...!")
+                var windob=window.open("Facebook.html","winName","top=0, left=250, width=1200, height=1000, status");
+                windob.focus();
+            }
+            
+            function Home()
+            {
+                alert("Login Successfully Done...!")
+                var windob=window.open("index.html","winName","top=0, left=0, width=1400, height=1200, status");
+                windob.focus();
+            }
+        </script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="btn">
+                <input type="text" placeholder="Username" id="t1" required><br><br>
+                 <input type="password" placeholder="Password" id="t2" required><br><br>
+            </div>
+            
+            <div class="btns">
+                <input type="button" value="Login" id="t5" onclick="Home()"><br><br>
+                <input type="button" value="Register" id="t6">
+                
+            </div>
+            
+            <div class="other">
+                <input type="button" value="Facebook" id="t3" onclick="Facebook()"><br><br>
+                <input type="button" value="Google" id="t4" onclick="google()">
+                
+            </div>
+            
+            
+        </div>
+    </body>
+</html>
+
+<!-- <div class="content">
+                <h1>Please First Login To Your Account!</h1>
+                <hr>
+                <input type="button" value="Continue with Facebook" onclick="Facebook()">
+                 <input type="button" value="Continue with Google" onclick="google()">
+                 <input type="text" placeholder="Email">
+                <input type="password" value="Password">
+                 <input type="button" value="Log In">
+                
+            </div> -->

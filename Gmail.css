@@ -1,0 +1,75 @@
+*{
+
+}
+body{
+
+}
+.container
+{
+    width: 430px;
+    height: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    box-sizing: border-box;
+    border: solid 2px black;
+    border-radius: 14px;
+}
+.main h1{
+    text-align: center;
+    margin-top: 40px;
+    color: red;
+}
+.main h2, h3{
+    text-align: center;
+    color: black;
+}
+.btn input
+{
+    width: 360px;
+    height: 40px;
+    border: solid 2px blue;
+    margin-left: 30px;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+}
+.btn h1{
+    font-size: 20px;
+    margin-left: 30px;
+    color: blue;
+    cursor: pointer;
+}
+.btn p{
+    margin-top: 30px;
+    font-size: 20px;
+    margin-left: 30px;
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    color: gray;
+}
+.btn h2{
+    font-size: 20px;
+    margin-left: 30px;
+    color: blue;
+    margin-top: -8px;
+    cursor: pointer;
+}
+.Nxt input
+{
+    margin-top: 30px;
+    margin-left: 70%;
+    width: 100px;
+    height: 40px;
+    background: blue;
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+    border-color: blue;
+    cursor: pointer;
+}
